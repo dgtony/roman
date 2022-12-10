@@ -16,7 +16,7 @@ pub fn main() !void {
             std.log.err("bad numeral {s} ({})", .{numeral, err});
             continue;
         };
-        std.log.info(" {s} => {d}", .{numeral, val});
+        std.log.info(" {s:>10} => {d:<}", .{numeral, val});
     }
 }
 
