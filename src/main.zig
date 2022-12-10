@@ -22,6 +22,13 @@ pub fn main() !void {
 
 fn printUsage() !void {
     const usage =
+        \\   __________ ________      _____      _____    _______
+        \\   \______   \\_____  \    /     \    /  _  \   \      \
+        \\    |       _/ /   |   \  /  \ /  \  /  /_\  \  /   |   \
+        \\    |    |   \/    |    \/    Y    \/    |    \/    |    \
+        \\    |____|_  /\_______  /\____|__  /\____|__  /\____|__  /
+        \\           \/         \/         \/         \/         \/
+        \\
         \\   Converter of Roman numerals.
         \\
         \\   Usage: provide numerals as CLI arguments, delimited by spaces.
